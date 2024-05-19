@@ -7,7 +7,7 @@ client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 host = socket.gethostname();
 port = 777
 
-client.connect(host, port)
+client.connect("192.168.1.1", port)
 
 message = client.recv(1024)
 
