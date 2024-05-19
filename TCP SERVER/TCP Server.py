@@ -7,7 +7,7 @@ server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 host = socket.gethostname()
 port = 777
 
-server.bind(("192.168.1.150", port))
+server.bind(("192.168.1.1", port))
 server.listen(3)
 
 while (True):
